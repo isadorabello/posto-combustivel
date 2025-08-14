@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BombaCombustivelService {
 
-    private BombaCombustivelRepository repository;
+    private final BombaCombustivelRepository repository;
 
     public  void criar(BombaCombustivel bomba){
         repository.save(bomba);

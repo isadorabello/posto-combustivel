@@ -14,8 +14,8 @@ import java.util.List;
 @RequiredArgsConstructor
 public class AbastecimentoService {
 
-    private AbastecimentoReposiory repository;
-    private BombaCombustivelService bombaService;
+    private final AbastecimentoReposiory repository;
+    private final BombaCombustivelService bombaService;
 
 
     public  void criar(Integer idBomba, Long litros){

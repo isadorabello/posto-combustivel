@@ -12,7 +12,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TipoCombustivelService {
 
-    private TipoCombustivelRepository repository;
+    private final TipoCombustivelRepository repository;
 
     public  void criar(TipoCombustivel tipo){
         repository.save(tipo);
