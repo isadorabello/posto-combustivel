@@ -1,7 +1,7 @@
 
 # API - Posto de Combustível
 
-Esse projeto foi desenvolvido para um desafio técnico visando apresentar habilidades de desenvolvedor java backend e tem como escopo o cadastro/manipulação de tipos e bombas de combustíveis, bem como o abastecimento de um veículo.
+Projeto simples desenvolvido para um desafio técnico visando apresentar habilidades de desenvolvedor java backend e tem como escopo o cadastro/manipulação de tipos e bombas de combustíveis, bem como o abastecimento de um veículo.
 
 
 
@@ -101,7 +101,7 @@ Rode o arquivo docker-compose
 | `quantidadeLitros`            | `Long`          | **Obrigatório**. ID da Bomba de Combustível       |
 | `idBomba` | `Integer` | **Obrigatório**. Quantidade de litros abastecidos |
 
-#### Retorna uma Bomba de Combustível por ID
+#### Retorna os Abastecimentos
 
 ```http
   GET /abastecimento
